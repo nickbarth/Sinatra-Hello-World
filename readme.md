@@ -1,4 +1,10 @@
 # Sinatra Hello World Example Codez
-Here's an example of a basic hello world application for Sinatra. The setup is pretty much what you'd use in production.
+This an example of a basic hello world application for Sinatra. 
 
-# To install 
+# How To Run
+  - gem install sinatra
+  - gem install activerecord
+  - gem install thin
+  - git clone git@github.com:nickbarth/Sinatra-Hello-World.git
+  - cd Sinatra-Hello-World
+  - thin start
