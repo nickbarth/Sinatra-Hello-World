@@ -1,4 +1,4 @@
-# Sinatra Hello World Example Codez
+# Sinatra Hello World Example
 This an example of a basic hello world application for Sinatra. 
 
 # How To Run
