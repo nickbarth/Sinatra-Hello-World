@@ -9,6 +9,8 @@ Install Your Gems
 
 `gem install activerecord`
 
+`gem install haml`
+
 `gem install thin`
 
 Download the Files

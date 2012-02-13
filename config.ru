@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'sinatra'
+require 'haml'
 require 'active_record'
 
 class SarahsApp < Sinatra::Base
@@ -9,11 +10,11 @@ class SarahsApp < Sinatra::Base
   end
 
   get '/' do
-    erb :home
+    haml :home
   end
 
   get '/foods' do
-    erb :foods
+    haml :foods
   end
 end
 
