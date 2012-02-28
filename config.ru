@@ -4,7 +4,7 @@ require 'sinatra'
 require 'haml'
 require 'active_record'
 
-class SarahsApp < Sinatra::Base
+class SinatraApp < Sinatra::Base
   configure do
     ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'database.sqlite3', pool: 4, timeout: 240, wait_timeout: 0.24)
   end
@@ -18,4 +18,4 @@ class SarahsApp < Sinatra::Base
   end
 end
 
-run SarahsApp
+run SinatraApp
