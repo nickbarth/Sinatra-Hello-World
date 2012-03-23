@@ -18,3 +18,4 @@ Download the Files
 Start the server
 
     thin start
+test`
